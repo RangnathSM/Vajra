@@ -1,0 +1,533 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.login
+{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: -100px;
+}
+.section1
+{
+    background-color: #004F95;
+    width: 764px;
+    height: 588px;
+    border-radius: 30px;
+    margin-left: 110px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.276)
+    
+}
+.head h1
+{
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 44px;
+}
+.digi{
+    padding: 30px;
+    margin-top: -10px;
+}
+.digi h2
+{
+    color: white;
+}
+.digi p
+{
+    color: #F0F8FF;
+    
+}
+.digitize
+{
+    display: flex;
+    
+}
+/* .digitize h2
+{
+    color: white;
+    margin-left: -245px;
+}
+.digitize p
+{
+    margin-left: 30px;
+} */
+
+.image img
+{
+    width: 88px;
+    height: 88px;
+    border-radius: 5px;
+}
+.track
+{
+    display: flex;
+    margin-top: 30px;
+}
+/* .track h2
+{
+    color: white;
+    margin-left: -220px;
+}
+.track p
+{
+    margin-left: 40px;
+} */
+
+.bio
+{
+    display: flex;
+    margin-top: 30px;
+}
+/* .bio h2
+{
+    color: white;
+    margin-left: -100px;
+}
+.bio p
+{
+    margin-left: 30px;
+    
+} */
+.one h2
+{
+    margin-left: -360px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.one p{
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.two h2
+{
+    margin-left: -360px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.two p{
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.three h2
+{
+    margin-left: -220px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.three p{
+   margin-left: 23px;
+   text-align: start;
+   font-weight: 400;
+   font-size: 20px;
+}
+.section2{
+    background-color: #F0F8FF;
+    width: 764px;
+    height: 588px;
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.276)
+}
+.main
+{
+    margin-left: 40px;
+}
+.signin 
+{
+    color:#F78117 ;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;    
+    
+}
+hr{
+    margin-left: 110px;
+    margin-top: 10px;
+    color:rgba(128, 128, 128, 0.027);
+}
+.heading h1
+{
+    color: #004F95;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+.email
+{
+    display: flex;
+    flex-direction: column;
+}
+.email label {
+    font-weight: 500;
+    margin-left: -365px;
+    font-size: 18px;
+}
+.email input
+{
+    width: 400px;
+    margin-left: 145px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: 2px 3px 15px rgba(128, 128, 128, 0.384); */
+}
+.password
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.password label
+{
+    font-weight: 500;
+    margin-left: -350px;
+    font-size: 18px;
+}
+.password input
+{
+    width: 400px;
+    margin-left: 145px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    /* box-shadow: 2px 3px 15px rgba(128, 128, 128, 0.384); */
+}
+.forgot h1
+{
+    color:#E12C33 ;
+    margin-left: -345px;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.inputs
+{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.btn button
+{
+    color: white ;
+    width: 420px;
+    background-color:#004F95 ;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: none;
+    margin-left: -60px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.new{
+    display: flex;
+    margin-left: 240px;
+    margin-top: 20px;
+    
+}
+.new h5
+{
+    color: rgba(0, 0, 0, 0.959);
+    font-weight: 400;
+    font-size: 16px;
+}
+.new a{
+    text-decoration: none;
+    color: #F78117;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:360px) and (max-width:480px){
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .login
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1
+    {
+        width: 320px;
+        height: auto;
+    }
+    .head h1
+    {
+        font-size: 18px;
+    }
+    .image img
+    {
+        width: 45px;
+        height: 45px;
+    }
+    .digi
+    {
+        margin-left: -20px;
+    }
+    .one h2
+    {
+       font-size: 14px;
+       margin-left: -250px;
+    }
+    .one p {
+        font-size: 9px;
+        width: 400px;
+        margin-left: -75px;
+        font-weight: 400;
+    }
+    .two h2
+    {
+       font-size: 14px;
+       margin-left: -255px;
+    }
+    .two p {
+        font-size: 9px;
+        width: 400px;
+        margin-left: -85px;
+        font-weight: 400;
+    }
+    .three h2
+    {
+       font-size: 14px;
+       margin-left: -135px;
+    }
+    .three p {
+        font-size: 9px;
+        width: 280px;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+    .section2
+    {
+        width: 320px;
+        height: 450px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .signin h1
+    {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    hr
+    {
+        display: none;
+    }
+    .heading h1 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: -135px;
+    }
+    .email label {
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: -220px;
+    }
+    .password label
+    {
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: -200px;
+    }
+    ::placeholder{
+        visibility: hidden;
+    }
+    .email input
+    {
+        width: 260px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .password input {
+        width: 260px;
+        height: 40px;
+        margin-left: 20px;
+    }
+   .forgot h1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -190px;
+   }
+   .btn button 
+   {
+        width: 285px;
+        height: 40px;
+        margin-left: -40px;
+        font-size: 16px;
+        font-weight: 500;
+   }
+   .new{
+    width: 200px;
+    margin-left: 75px;
+   }
+   .new h5
+   {
+    font-size: 12px;
+    font-weight: 400;
+   }
+   .new a{
+    font-size: 12px;
+    font-weight: 400;
+   } 
+   
+}
+@media only screen and (min-width:480px) and (max-width:600px){
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .login
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1
+    {
+        width: 440px;
+        height: auto;
+    }
+    .head h1
+    {
+        font-size: 24px;
+    }
+    .image img
+    {
+        width: 60px;
+        height: 60px;
+    }
+    .digi
+    {
+        margin-left: -20px;
+    }
+    .one h2
+    {
+       font-size: 20px;
+       margin-left: -295px;
+    }
+    .one p {
+        font-size: 14px;
+        width: 400px;
+        margin-left: -15px;
+        font-weight: 400;
+    }
+    .two h2
+    {
+       font-size: 20px;
+       margin-left: -300px;
+    }
+    .two p {
+        font-size: 14px;
+        width: 400px;
+        margin-left: -30px;
+        font-weight: 400;
+    }
+    .three h2
+    {
+       font-size: 20px;
+       margin-left: -177px;
+    }
+    .three p {
+        font-size: 14px;
+        width: 380px;
+        margin-left: 8px;
+        font-weight: 400;
+    }
+    .section2
+    {
+        width: 440px;
+        height: 500px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .signin h1
+    {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    hr
+    {
+        display: none;
+    }
+    .heading h1 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: -135px;
+    }
+    .email label {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: -230px;
+    }
+    .password label
+    {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: -215px;
+    }
+    ::placeholder{
+        visibility: hidden;
+    }
+    .email input
+    {
+        width: 320px;
+        height: 40px;
+        margin-left: 68px;
+    }
+    .password input {
+        width: 320px;
+        height: 40px;
+        margin-left: 68px;
+    }
+   .forgot h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: -190px;
+   }
+   .btn button 
+   {
+        width: 340px;
+        height: 50px;
+        margin-left: -5px;
+        font-size: 18px;
+        font-weight: 600;
+   }
+   .new{
+    width: 300px;
+    margin-left: 125px;
+   }
+   .new h5
+   {
+    font-size: 16px;
+    font-weight: 500;
+   }
+   .new a{
+    font-size: 16px;
+    font-weight: 500;
+   } 
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .login
+    {
+        display: block;
+    }
+    .section2
+    {
+
+    }
+}
